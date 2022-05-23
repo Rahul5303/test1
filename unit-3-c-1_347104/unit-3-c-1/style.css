@@ -1,0 +1,23 @@
+/* #products{
+    display: grid;
+    /* grid-template-columns: auto; */
+    /* gap: 10px; */
+    /* width: 400px; */
+    /* margin-top:20px; */
+
+#all_products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    width:90%;
+    font-size: medium;
+    justify-items: center;
+    margin: 10px 50px;
+}
+
+#all_products img{
+    width: 80%;
+    height:400px;
+
+}
